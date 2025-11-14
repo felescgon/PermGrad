@@ -38,7 +38,7 @@ The graphical abstract summarises the complete HyNN–PermGrad workflow:
 
 <div>
 <p align = "center">
-<kbd><img src="https://github.com/felescgon/PermGrad/blob/ebea21625e392c3b73da58e6970f7d6ddfe30e6c/imgs/graphical_abstract.png" alt="PermGrad" width="240"></kbd> 
+<kbd><img src="https://github.com/felescgon/PermGrad/blob/e0051aa6e5b066b79dc2a2b1aeba81d57c05af8f/imgs/graphical_abstract.png" alt="PermGrad" width="340"></kbd> 
 </p>
 </div>
 
@@ -63,7 +63,7 @@ PermGrad has a dedicated space on **[DeepWiki](https://deepwiki.com/felescgon/Pe
 
 <div>
 <p align = "center">
-<kbd><img src="https://github.com/felescgon/PermGrad/blob/ebea21625e392c3b73da58e6970f7d6ddfe30e6c/imgs/logo.svg" alt="TINTOlib" width="240"></kbd> 
+<kbd><img src="https://github.com/felescgon/PermGrad/blob/ebea21625e392c3b73da58e6970f7d6ddfe30e6c/imgs/logo.svg" alt="TINTOlib" width="150"></kbd> 
 </p>
 </div>
 
