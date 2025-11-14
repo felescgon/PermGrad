@@ -30,7 +30,11 @@ Evaluated across five heterogeneous datasets, the model achieves **competitive p
 
 ## 🖼️ Graphical Abstract
 
-[View Graphical Abstract (PDF)](imgs/graphical_abstract.pdf)
+<div>
+<p align = "center">
+<kbd><img src="https://github.com/felescgon/PermGrad/blob/ebea21625e392c3b73da58e6970f7d6ddfe30e6c/imgs/graphical_abstract.png" alt="PermGrad" width="240"></kbd> 
+</p>
+</div>
 
 The graphical abstract summarises the complete HyNN–PermGrad workflow:
 1. Tabular data are transformed into synthetic images using TINTOlib.
