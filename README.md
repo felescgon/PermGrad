@@ -30,17 +30,18 @@ Evaluated across five heterogeneous datasets, the model achieves **competitive p
 
 ## 🖼️ Graphical Abstract
 
+The graphical abstract summarises the complete HyNN–PermGrad workflow:
+1. Tabular data are transformed into synthetic images using TINTOlib.
+2. A dual-branch Hybrid Neural Network (HyNN) jointly processes the tabular input (MLP branch) and the synthetic image (CNN branch).
+3. Branch-level interpretability is computed through permutation importance (MLP) and Grad-CAM saliency (CNN).
+4. The proposed PermGrad mechanism integrates both modalities into a single, globally consistent attribution map.f
+
 <div>
 <p align = "center">
 <kbd><img src="https://github.com/felescgon/PermGrad/blob/ebea21625e392c3b73da58e6970f7d6ddfe30e6c/imgs/graphical_abstract.png" alt="PermGrad" width="240"></kbd> 
 </p>
 </div>
 
-The graphical abstract summarises the complete HyNN–PermGrad workflow:
-1. Tabular data are transformed into synthetic images using TINTOlib.
-2. A dual-branch Hybrid Neural Network (HyNN) jointly processes the tabular input (MLP branch) and the synthetic image (CNN branch).
-3. Branch-level interpretability is computed through permutation importance (MLP) and Grad-CAM saliency (CNN).
-4. The proposed PermGrad mechanism integrates both modalities into a single, globally consistent attribution map.
 
 This provides a unified, interpretable pipeline that combines symbolic and spatial reasoning for tabular deep learning.
 
