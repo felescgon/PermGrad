@@ -38,7 +38,7 @@ The graphical abstract summarises the complete HyNN–PermGrad workflow:
 
 <div>
 <p align = "center">
-<kbd><img src="https://github.com/felescgon/PermGrad/blob/e0051aa6e5b066b79dc2a2b1aeba81d57c05af8f/imgs/graphical_abstract.png" alt="PermGrad" width="540"></kbd> 
+<kbd><img src="https://github.com/felescgon/PermGrad/blob/fe44e3abb3d4d36ef27c9f20cdde45f1a7a2a2ad/imgs/graphical_abstract.png" alt="PermGrad" width="540"></kbd> 
 </p>
 </div>
 
