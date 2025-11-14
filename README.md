@@ -32,9 +32,11 @@ Evaluated across five heterogeneous datasets, the model achieves **competitive p
 
 The graphical abstract used in the paper is provided under:
 
-```
-imgs/graphical_abstract.png
-```
+<div>
+<p align = "center">
+<kbd><img src="https://raw.githubusercontent.com/DCY1117/TEMP-Images/refs/heads/main/TINTOlib-images/logo.svg" alt="TINTOlib" width="240"></kbd> 
+</p>
+</div>
 
 <p align="center">
   <img src="imgs/graphical_abstract.png" width="70%">
@@ -56,12 +58,13 @@ PermGrad has a dedicated space on **[DeepWiki](https://deepwiki.com/felescgon/Pe
 
 ## 🧩 Synthetic Image Generation Powered by TINTOlib
 
-<p align="center">
-  <a href="https://github.com/oeg-upm/TINTOlib" target="_blank">
-    <img src="https://raw.githubusercontent.com/oeg-upm/TINTOlib/master/imgs/tintolib_logo.png" 
-         alt="TINTOlib Logo" width="240">
-  </a>
+<div>
+<p align = "center">
+<kbd><img src="https://raw.githubusercontent.com/DCY1117/TEMP-Images/refs/heads/main/TINTOlib-images/logo.svg" alt="TINTOlib" width="240"></kbd> 
 </p>
+</div>
+
+
 
 This project relies on **TINTOlib**, an open-source Python library for transforming tabular data into  
 **synthetic, spatially structured images**.  
@@ -232,6 +235,6 @@ TINTOlib is available under the **[Apache License 2.0](https://github.com/felesc
 
 <div>
 <p align = "center">
-<kbd><img src="https://raw.githubusercontent.com/DCY1117/TEMP-Images/refs/heads/main/TINTOlib-images/logo-uned-.jpg" alt="Universidad Nacional de Educación a Distancia" width="231"></kbd> <kbd><img src="https://raw.githubusercontent.com/DCY1117/TEMP-Images/refs/heads/main/TINTOlib-images/logo-uclm.png" alt="Universidad de Castilla-La Mancha" width="115"></kbd> 
+<kbd><img src="https://github.com/felescgon/PermGrad/blob/ebea21625e392c3b73da58e6970f7d6ddfe30e6c/imgs/logo-uned-.jpg" alt="Universidad Nacional de Educación a Distancia" width="231"></kbd> <kbd><img src="https://raw.githubusercontent.com/DCY1117/TEMP-Images/refs/heads/main/TINTOlib-images/logo-uclm.png" alt="Universidad de Castilla-La Mancha" width="115"></kbd> 
 </p>
 </div>
