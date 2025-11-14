@@ -34,13 +34,9 @@ The graphical abstract used in the paper is provided under:
 
 <div>
 <p align = "center">
-<kbd><img src="https://raw.githubusercontent.com/DCY1117/TEMP-Images/refs/heads/main/TINTOlib-images/logo.svg" alt="TINTOlib" width="240"></kbd> 
+<kbd><img src="https://github.com/felescgon/PermGrad/blob/ebea21625e392c3b73da58e6970f7d6ddfe30e6c/imgs/graphical_abstract.pdf" alt="PermGrad" width="240"></kbd> 
 </p>
 </div>
-
-<p align="center">
-  <img src="imgs/graphical_abstract.png" width="70%">
-</p>
 
 ---
 
@@ -60,7 +56,7 @@ PermGrad has a dedicated space on **[DeepWiki](https://deepwiki.com/felescgon/Pe
 
 <div>
 <p align = "center">
-<kbd><img src="https://raw.githubusercontent.com/DCY1117/TEMP-Images/refs/heads/main/TINTOlib-images/logo.svg" alt="TINTOlib" width="240"></kbd> 
+<kbd><img src="https://github.com/felescgon/PermGrad/blob/ebea21625e392c3b73da58e6970f7d6ddfe30e6c/imgs/logo.svg" alt="TINTOlib" width="240"></kbd> 
 </p>
 </div>
 
@@ -235,6 +231,6 @@ TINTOlib is available under the **[Apache License 2.0](https://github.com/felesc
 
 <div>
 <p align = "center">
-<kbd><img src="https://github.com/felescgon/PermGrad/blob/ebea21625e392c3b73da58e6970f7d6ddfe30e6c/imgs/logo-uned-.jpg" alt="Universidad Nacional de Educación a Distancia" width="231"></kbd> <kbd><img src="https://raw.githubusercontent.com/DCY1117/TEMP-Images/refs/heads/main/TINTOlib-images/logo-uclm.png" alt="Universidad de Castilla-La Mancha" width="115"></kbd> 
+<kbd><img src="https://github.com/felescgon/PermGrad/blob/ebea21625e392c3b73da58e6970f7d6ddfe30e6c/imgs/logo-uned-.jpg" alt="Universidad Nacional de Educación a Distancia" width="231"></kbd> <kbd><img src="https://github.com/felescgon/PermGrad/blob/ebea21625e392c3b73da58e6970f7d6ddfe30e6c/imgs/logo-uclm.png" alt="Universidad de Castilla-La Mancha" width="115"></kbd> 
 </p>
 </div>
