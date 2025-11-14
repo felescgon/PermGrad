@@ -28,15 +28,17 @@ Evaluated across five heterogeneous datasets, the model achieves **competitive p
 
 ---
 
-## 🖼 Graphical Abstract
+## 🖼️ Graphical Abstract
 
-The graphical abstract used in the paper is provided under:
+[View Graphical Abstract (PDF)](imgs/graphical_abstract.pdf)
 
-<div>
-<p align = "center">
-<kbd><img src="https://github.com/felescgon/PermGrad/blob/ebea21625e392c3b73da58e6970f7d6ddfe30e6c/imgs/graphical_abstract.pdf" alt="PermGrad" width="240"></kbd> 
-</p>
-</div>
+The graphical abstract summarises the complete HyNN–PermGrad workflow:
+1. Tabular data are transformed into synthetic images using TINTOlib.
+2. A dual-branch Hybrid Neural Network (HyNN) jointly processes the tabular input (MLP branch) and the synthetic image (CNN branch).
+3. Branch-level interpretability is computed through permutation importance (MLP) and Grad-CAM saliency (CNN).
+4. The proposed PermGrad mechanism integrates both modalities into a single, globally consistent attribution map.
+
+This provides a unified, interpretable pipeline that combines symbolic and spatial reasoning for tabular deep learning.
 
 ---
 
@@ -83,15 +85,10 @@ training and evaluating the Hybrid Neural Network (HyNN) and PermGrad interpreta
 ```
 PermGrad/
 │
-├── imgs/                   # Graphical abstract and relevance visualisations
-├── data/                   # Links or loaders for public datasets
-├── models/                 # MLP, CNN, and HyNN implementations (PyTorch)
-├── interpretability/       # Permutation, Grad-CAM, and PermGrad integration modules
-├── experiments/            # Scripts for benchmarking and evaluation
-├── notebooks/              # Jupyter notebooks for analysis and visualisation
-├── utils/                  # Auxiliary functions (training loops, metrics...)
-│
-├── requirements.txt
+├── imgs/                  # Graphical abstract and relevance visualisations
+├── datasets/              # Links or loaders for public datasets
+├── CLASSIFICATION TASKS/  # Permutation, Grad-CAM, and PermGrad integration modules (classification)
+├── REFRESSION TASKS/       # Permutation, Grad-CAM, and PermGrad integration modules (regression)
 ├── README.md
 └── LICENSE
 ```
@@ -106,12 +103,6 @@ All datasets used in this work are **publicly available**:
 - Covertype  
 - GAS  
 - Puma  
-
-Dataset loading utilities are provided in:
-
-```
-data/load_datasets.py
-```
 
 ---
 
@@ -140,57 +131,29 @@ The PermGrad interpretability stack includes:
 3. **Branch pruning weights**, estimating per-pathway relevance  
 4. **PermGrad integration**, yielding global feature relevance
 
-Implementation files:
 
-```
-interpretability/permutation.py
-interpretability/gradcam.py
-interpretability/permgrad.py
-```
-
----
-
-## 📊 Reproducing the Experiments
-
-Run the full workflow:
-
-```
-python experiments/run_all.py
-```
-
-Or execute components manually:
-
-### Train HyNN
-```
-python experiments/train_hynn.py --dataset heloc
-```
-
-### Compute Permutation Importance
-```
-python interpretability/permutation.py --dataset heloc
-```
-
-### Compute Grad-CAM relevance
-```
-python interpretability/gradcam.py --dataset heloc
-```
-
-### Compute PermGrad integration
-```
-python interpretability/permgrad.py --dataset heloc
-```
 
 ---
 
 ## 📓 Notebooks
 
-The `notebooks/` directory includes end-to-end examples:
+This repository includes ready-to-run Jupyter notebooks for both training and interpretability:
+
+### Classification Tasks
+Located in: `CLASSIFICATION TASKS/`
 
 | Notebook | Description |
 |---------|-------------|
-| `TINTO_visualization.ipynb` | Visualise TINTO-based synthetic images |
-| `HyNN_training.ipynb` | Training of MLP, CNN, and HyNN |
-| `PermGrad_analysis.ipynb` | Complete interpretability workflow |
+| `CNN.ipynb` | Train and evaluate the CNN branch on synthetic images |
+| `HyNN.ipynb` | Train and evaluate the full Hybrid Neural Network (HyNN) |
+
+### Regression Tasks
+Located in: `REGRESSION TASKS/`
+
+| Notebook | Description |
+|---------|-------------|
+| `CNN.ipynb` | CNN regression model trained on TINTO-based images |
+| `HyNN.ipynb` | Hybrid regression model (MLP + CNN) with PermGrad-compatible fusion |
 
 ---
 
@@ -203,15 +166,6 @@ The `notebooks/` directory includes end-to-end examples:
 - Implicit hybrid regularisation observed even when one branch dominates inference.
 
 ---
-
-## 🔧 Installation
-
-```
-git clone https://github.com/your-org/PermGrad.git
-cd PermGrad
-pip install -r requirements.txt
-```
-
 
 ## 🛡️ License
 
