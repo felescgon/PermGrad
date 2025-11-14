@@ -38,11 +38,10 @@ The graphical abstract summarises the complete HyNN–PermGrad workflow:
 
 <div>
 <p align = "center">
-<kbd><img src="https://github.com/felescgon/PermGrad/blob/fe44e3abb3d4d36ef27c9f20cdde45f1a7a2a2ad/imgs/graphical_abstract.png" alt="PermGrad" width="540"></kbd> 
+<kbd><img src="https://github.com/felescgon/PermGrad/blob/fe44e3abb3d4d36ef27c9f20cdde45f1a7a2a2ad/imgs/graphical_abstract.png" alt="PermGrad" width="800"></kbd> 
 </p>
 </div>
 
-[graphical_abstract.pdf](https://github.com/user-attachments/files/23551079/graphical_abstract.pdf)
 
 
 This provides a unified, interpretable pipeline that combines symbolic and spatial reasoning for tabular deep learning.
