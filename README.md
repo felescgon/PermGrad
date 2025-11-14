@@ -5,7 +5,9 @@
 [![Documentation Status](https://readthedocs.org/projects/morph-kgc/badge/?version=latest)](https://tintolib.readthedocs.io/en/latest/)
 [![TINTOlib](https://img.shields.io/badge/library-TINTOlib-9cf)](https://github.com/oeg-upm/TINTOlib)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/felescgon/PermGrad)
-[![PyPI Downloads](https://static.pepy.tech/badge/tintolib)](https://pepy.tech/projects/tintolib)
+[![PyPI TINTOlib](https://static.pepy.tech/badge/tintolib)](https://pepy.tech/projects/tintolib)
+[![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.17613159.svg)](https://doi.org/10.5281/zenodo.17613159)
+
 
 This repository contains the implementation, experiments, and evaluation pipeline supporting the scientific article:
 
