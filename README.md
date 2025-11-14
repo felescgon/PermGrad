@@ -42,8 +42,6 @@ The graphical abstract summarises the complete HyNN–PermGrad workflow:
 </p>
 </div>
 
-
-
 This provides a unified, interpretable pipeline that combines symbolic and spatial reasoning for tabular deep learning.
 
 ---
